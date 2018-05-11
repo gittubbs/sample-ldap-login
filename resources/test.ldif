@@ -1,0 +1,55 @@
+dn: dc=myorg,dc=test
+objectClass: top
+objectClass: domain
+dc: myorg
+
+dn: ou=People, dc=myorg,dc=test
+objectClass: top
+objectClass: organizationalunit
+ou: People
+
+dn: uid=test1,ou=People,dc=myorg,dc=test
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+objectClass: person
+cn: nome1
+sn: cognome1
+l: NNK6EJYQ7GL4X4DZPOVUZIBCR5S2UQS462N7Q5KRATSP2ZQV
+uid: test1
+userPassword: {SHA}Se/vX3DUetwtsus5f77197xWDik=
+
+
+dn: uid=test2,ou=People,dc=myorg,dc=test
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+objectClass: person
+cn: nome2
+sn: cognome2
+l: FNIC2WY35LM2RWG34P2OGUPF5YUBBS6PUPNUXF3HGR2FT7GT
+uid: test2
+userPassword: {SHA}Se/vX3DUetwtsus5f77197xWDik=
+
+dn: uid=test3,ou=People,dc=myorg,dc=test
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+objectClass: person
+cn: nome3
+sn: cognome3
+l: HDXV5BWHEDXAD4OSRXWBWAU4RJGKFCQCZ7N4O4JSVVMPF5Q5
+uid: test3
+userPassword: {SHA}Se/vX3DUetwtsus5f77197xWDik=
+
+
+dn: uid=test4,ou=People,dc=myorg,dc=test
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+cn: nome4
+sn: cognome4
+l: 6PEZJOASUMSIH5P3MTGCLJZTVOHDTVD7RRXXVSAOJR3F3IIH
+uid: test4
+userPassword: {SHA}Se/vX3DUetwtsus5f77197xWDik=
